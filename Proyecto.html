@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Borrador</title>
+        <link href="Proyecto.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+     
+     <div id="grid">
+      <button id="addbt" onclick=open_modal()>+</button>
+      </div>
+       
+       <div class="modal" id="modal1">
+           <div class="modal-content">
+               <span class="close" onclick=close_modal()>&times</span>
+               <label class="label">Title:</label>
+               <input type="text" class="box" id="int" onfocus="''" placeholder="Title" maxlength="30">
+               <br>
+               <br>
+               <br>
+               <label class="label">Date:</label>
+               <br>
+               <input type="date" id="time">
+               <br>
+               <br>
+               <br>
+               <label class="label">Description:</label>
+               <input type="text" class="box" id="indesc" onfocus"''" placeholder="Description" maxlength="100">
+               <br>
+               <br>
+               <br>
+               <button id="go">Add</button>
+               
+               
+               
+           </div>
+       </div>
+        <script src="Proyecto.js"></script>
+    </body>
+</html>
